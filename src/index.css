@@ -1,0 +1,153 @@
+*{
+ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+body{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+ 
+  
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+#root{
+  background: #333;
+  height: 100%;
+  width:100%;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.card{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: auto;
+  width: 15.8rem;
+  /* border: 6px solid black; */
+  border-radius: 10px;
+  overflow: hidden;
+  animation: motion 5s alternate;
+  transition: 0.4s ease-in-out!important;
+
+  
+}
+@keyframes motion{
+  0%{
+    opacity: 0%;
+  }
+  25%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+.card:hover{
+  box-shadow: hsl(0, 0%, 50%) 0px 24px 45px, hsl(0, 0%, 50%)0px -12px 20px, hsl(0, 0%, 50%) 0px 4px 6px, hsl(0, 0%, 50%) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     
+}
+.img1{
+ 
+  width: 100%;
+  max-height: 450px;
+  transition: 0.5s ease-in-out;
+  z-index: -1;
+  
+}
+.img1:hover{
+  margin-bottom: -10%;
+  
+  
+  
+}
+
+.card__info{
+  /* border: 5px solid orange; */
+  margin-left: 10px;
+  margin-top: -33%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  height: 100px;
+  z-index: 1;
+  
+}
+.card__title{
+  margin-top: 5px;
+}
+button{
+  background: transparent;
+  border: 1px solid white;
+  backdrop-filter: blur(5px);
+  width: 180px;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 8px;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: 30px;
+  background: #333;
+  color: white;
+  padding-top: 1%;
+  width: 60%;
+  height: 4%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  letter-spacing: 4px;
+  font-family: 'Silkscreen', cursive;
+  animation: otion 3s alternate;
+  transition: 0.4s ease-in-out;
+border-left: 4px solid white;
+border-right: 4px solid white;
+ 
+}
+.heading:hover{
+  width: 80%;
+  margin-left:10%;
+  margin-right: 10%;
+     
+}
+@keyframes otion{
+  0%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+.heading:hover{
+  letter-spacing: 10px;
+  
+}
+.img__box{
+  /* border: 3px solid #e50914; */
+  border-bottom: none;
+  background: #000;
+  
+}
+.ending{
+  padding: 0px 20px 10px 20px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Silkscreen', cursive;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  
+}
