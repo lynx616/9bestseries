@@ -8,7 +8,7 @@ const CardData=[
         link:"https://www.netflix.com/in/title/80100172"
     },
     {
-        imgsrc:"https://m.media-amazon.com/images/M/MV5BNDkyZThhNmMtZDBjYS00NDBmLTlkMjgtNWM2ZWYzZDQxZWU1XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1000_.jpg",
+        imgsrc:"https://wallpapers.com/images/high/breaking-bad-comic-art-jvmua77hy4u4vp8f.jpg",
         title:"An Original AMC Series",
         sname:"BREAKING BAD",
         link:"https://www.netflix.com/in/title/70143836"
